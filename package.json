@@ -1,13 +1,14 @@
 {
   "type": "module",
-  "name": "kanbas-node-server-app-cs4550-01",
+  "name": "kanbas-node-server-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "hello.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
-  "author": "",
+  
+  "author": "Joseph Pierre-Louis",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
@@ -16,5 +17,19 @@
     "express-session": "^1.17.3",
     "mongodb": "4.1",
     "node": "^21.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeyPL5/kanbas-node-server-app.git"
+  },
+  "keywords": [
+    "Node",
+    "REST",
+    "Server"
+  ],
+  "bugs": {
+    "url": "https://github.com/JoeyPL5/kanbas-node-server-app/issues"
+  },
+  "homepage": "https://github.com/JoeyPL5/kanbas-node-server-app#readme",
+  "description": ""
 }
